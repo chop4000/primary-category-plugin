@@ -62,8 +62,6 @@ Author URI: http://chris-hopkins.org/
 		return $post_id;
 
 		// Get the posted data and sanitize it for use as an HTML class.
-		//$new_meta_value = ( isset( $_POST['primary_category_dropdown'] ) ? sanitize_html_class( $_POST['primary_category_dropdown'] ) : '' );
-		//$new_meta_value = 'b27';
 		$new_meta_value = $_POST['primary_category_dropdown'];
 
 		// Get the meta key.
